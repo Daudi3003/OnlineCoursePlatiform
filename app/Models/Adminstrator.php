@@ -22,7 +22,7 @@ public function instructors()
 
 public function courses()
 {
-    return $this->hasOne(Courses::class);
+    return $this->hasMany(Courses::class);
 }
 
 public function students(){
